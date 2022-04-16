@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/oao123/my-app/static/css/main.9eccdc6d.css",
+    "main.js": "/oao123/my-app/static/js/main.5ceb3384.js",
+    "static/js/787.28cb0dcd.chunk.js": "/oao123/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/oao123/my-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/oao123/my-app/index.html",
+    "main.9eccdc6d.css.map": "/oao123/my-app/static/css/main.9eccdc6d.css.map",
+    "main.5ceb3384.js.map": "/oao123/my-app/static/js/main.5ceb3384.js.map",
+    "787.28cb0dcd.chunk.js.map": "/oao123/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eccdc6d.css",
+    "static/js/main.5ceb3384.js"
+  ]
+}
