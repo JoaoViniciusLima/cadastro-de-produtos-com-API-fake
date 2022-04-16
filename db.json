@@ -1,0 +1,28 @@
+{
+  "prod": [
+    {
+      "userId": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/626/035/products/554b79d0951-7581e3caa670abc13616299892060603-640-0.jpg",
+      "title": "ggggg",
+      "body": "aaaasa",
+      "id": 2
+    },
+    {
+      "userId": "https://images.kabum.com.br/produtos/fotos/212028/jogo-nba-2k22-ps4_1629482201_g.jpg",
+      "title": "gffghgcthgcjhg",
+      "body": "bbbbbbbb",
+      "id": 5
+    },
+    {
+      "userId": "https://images.kabum.com.br/produtos/fotos/212028/jogo-nba-2k22-ps4_1629482201_g.jpg",
+      "title": "nab",
+      "body": "jogo de baskete R$:130",
+      "id": 7
+    },
+    {
+      "userId": "https://images.kabum.com.br/produtos/fotos/212028/jogo-nba-2k22-ps4_1629482201_g.jpg",
+      "title": "bba",
+      "body": "jogo de baskete R$:130",
+      "id": 8
+    }
+  ]
+}
