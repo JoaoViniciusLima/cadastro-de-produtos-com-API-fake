@@ -1,58 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React, {useEffect, useState,Component } from 'react';
-import PropTypes from 'prop-types'
-//import { json } from 'server/reply';
 import axios from 'axios';
 import PostForm from './PostForm';
-//import { post } from 'server/router';
-//import {prod} from './db.json';
-
-
-//const Tesqui  = ({tesqui}) => {
-  //return <div className="tesqui-container">{tesqui.title}</div>;
-//}
 
 
 
-//fetch('http://localhost:5000/prod', {
- // method: 'POST',
- // headers: {
- //   'Contend-type': 'aplication/json',
- // },
- // body: JSON.stringify(produ),
-//})
-//.then((resp) => resp.json())
-//.then((data) => {
- // console.log(data)
-//})
-//.catch((err) => console.log(err))
-
- //const Adicionar  = () => {
-   //return (
-    // <div>
-  // <input type="text"/>
-  // <button>adicionar</button>
- //  </div>
-//   )
- //}
-  
- //const Button = ({children,onClick}) => {
-   //return( <button onClick={onClick} className="button">  </button>
-  // );
- //}
  
 
  function Formi(){
-
- function ativar(e) {
-  e.preventDefault()
-  console.log(nome)
-  setNnome(nome)
-  
-}
-
-
 const [nome,setNome] = useState()
 const [Nnome,setNnome] = useState()
 const [pro,setpro] = useState([])
@@ -68,43 +24,8 @@ function Getprod(e) {
   setNnome(nome)
 
         console.log(pro)
-  //fetch('http://localhost:5000/prod',{
-		//method: 'POST',
-		//headers: {
-		//'Contend-type': 'application/json',	
-	//	},
-	//	body: JSON.stringify(nome),
-	//	} 
-	//	)
-	//	.then((resp) => resp.json())
-   //     .then((data) => {
-	//		console.log(data)
-	//	})
-	//	.catch(err => 
-		//	console.log(err))
- // axios.post("http://localhost:5000/prod",nome).then((response) => {
-    //console.log(response)
-    
- //});
- //{pro.map((post,key) => {
-}
-//{pro.map((post,key) => {
- // return(
-  //<div>
- //<Render userId="a"/>
-  // </div>
- //  )
-// })}
-function deletar(){
   
-
-  console.log(pro)
 }
-
-function limpar(){
-  setNnome('')
-}
-
 
   return(
    <div>
@@ -115,9 +36,7 @@ function limpar(){
          <div className='orgi'>
             
             <div  className='ca'>
-        <Render  userId={pro.userId} title={pro.title} body={pro.body} id={pro.id}/>
-        
-       
+        <Render  userId={pro.userId} title={pro.title} body={pro.body} id={pro.id}/>             
         </div>
       
           </div>
@@ -126,11 +45,11 @@ function limpar(){
         </div>
     </div>
   )
-  //})}
+ 
 }
 function Render({userId,title,body,id}){
    function deleta  ()  {
-    //axios.delete('http://localhost:5000/prod/${id}')
+  
     axios.delete(`http://localhost:5000/prod/${id}`)
 
     console.log(id)
@@ -152,50 +71,6 @@ function Render({userId,title,body,id}){
 }
 
 
-function Infor({nome,idade})  {
-  return ( 
-    <div>
-      <p>nome: {nome}</p>
-      <p>idade: {idade}</p>
-     
-    </div>
-   );
-}
-Infor.defaultProps = {
-  nome:'sem nome'
-
-}
-
-function Button(props) {
-  return <button onClick={props.event}>{props.text}</button>
-}
-
-
-//function Evento() {
- // return (
-  //  <div>
-   //   <p>clique</p>
-   //   <Button event={Mevento} text="kliki"/>
-  //  </div>
- // )
-//}
-
-//<button onClick={ativar} className="button">ativar</button>
-
-function Info() {
-  return (
-   <div>
-     <Infor nome="joeu" idade={38} />
-     <Infor/>
-     
-   </div>
-
-  )
-}
-function Bora(){
-   return <div className="inputt">xupa</div> 
-
-}
 function Pot(){
   return(
     <div>
@@ -210,37 +85,7 @@ function Pot(){
   )
 }
 
-//<Infor nome="aedfgdg" idade="23" /> 
-        
-//<Info/>
-//<Evento/>
-//className="container"> <Adicionar/> <Tasks tasks={tasks} /> 
 
-//const Tasks = ({tasks}) => {
- // return (
-   // <>
-   //   {tasks.map((tesqui) => (
-    //    <Tesqui tesqui={tesqui} />
-   //   ))}
-   // </>
- // )
-//};
-
-
-
-//function App()  {
- 
- // return(
-   
-  //  <div>
-  //  <Pot/>
-    
-//  </div>
-  
- 
- // )
-//};
-//<PostList />	{/* <PostList /> */}
 
 class App extends Component {
 	render() {
