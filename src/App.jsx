@@ -9,8 +9,8 @@ import PostForm from './PostForm';
  
 
  function Formi(){
-const [nome,setNome] = useState()
-const [Nnome,setNnome] = useState()
+
+
 const [pro,setpro] = useState([])
 useEffect(() => {
   axios.get('http://localhost:5000/prod')
@@ -18,14 +18,7 @@ useEffect(() => {
     setpro(response.data)
   })
   }, [])
-  console.log(pro)
-function Getprod(e) {
-  e.preventDefault()
-  setNnome(nome)
-
-        console.log(pro)
   
-}
 
   return(
    <div>

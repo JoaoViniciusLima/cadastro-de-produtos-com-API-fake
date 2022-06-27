@@ -1,119 +1,81 @@
 
 .containere{
-max-width: 500px;
-  margin: 30px auto;
-  overflow: auto;
-  min-width: 300px;
-  border: 2px solid chartreuse;
-  height: 500px;
-  width: 350px;
-  
-  border-radius: 10px;
-  
-}
-.fo{
-margin-left: 20%;  
-}
-.but{
- background-color: chartreuse; 
- height: 40px;
- padding: 0 10px;
- border-radius: 5px;
- width: 100%;
- color: #444;
- font-weight: bold;
- cursor: pointer;
- border: none;
-}
-.tesqui-container{
-  max-width: 500px ;
-  margin: 30px auto;
-  overflow: auto;
-  min-width: 300px;
-  border: 2px solid chartreuse;
-  padding: 30px;
-  border-radius: 10px;
-  align-items: center;
-}
-.tesqui-containeree{
-  max-width: 500px ;
-  
-  overflow: auto;
-  min-width: 300px;
-  border: 2px solid  black;
-  margin-left: 10px;
-  border-radius: 10px;
-  align-items: center;
-  text-align: center;
-  height: auto;
-}
-body{
-  background-color: white;
-}
-p{
-  color: aqua;
-}
-
-.inputt{
-background-color: #444;
-margin: 8px 0;
-padding: 15px 20px;
-display: flex;
-border-radius: 5px;
-justify-content: space-between;
-color:#eee;
-align-items: center;
-
-}
-.add{
-  width: 100%;
-  height: 40px;
-  padding: 0 10px;
-  border-radius: 5px;
-  border: none;
-  flex: 2;
-  background-color: #444;
-  color: #eee
-   
-}
-.but{
-  background-color: chartreuse; 
-  height: 40px;
-  padding: 0 10px;
-  border-radius: 5px;
-  width: 100%;
-  color: #444;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
- }
- *{
-   box-sizing: border-box;
- }
- .org{
-   background-color: cadetblue;
+  max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-width: 300px;
+    border: 2px solid chartreuse;
+    height: 500px;
+    width: 350px;
+    
+    border-radius: 10px;
+    
+  }
+  .fo{
+  margin-left: 20%;  
+  }
+  .but{
+   background-color: chartreuse; 
+   height: 40px;
+   padding: 0 10px;
+   border-radius: 5px;
    width: 100%;
-   height: auto;
-   display: flex;
-   flex-wrap: wrap;
-   padding: 1%;
- }
-.card{ 
-   display: flex;
-
-}
-.cardi{
-  background-color: #444;
-  width: 20%;
-  padding-left: 20%;
-  margin: 0;
-  box-sizing: border-box;
-
-}
-.b{
-  margin-left: 85%;
-}
-
- .root{
-   height: 100%;
- }
+   color: #444;
+   font-weight: bold;
+   cursor: pointer;
+   border: none;
+  }
+  .tesqui-container{
+    max-width: 500px ;
+    margin: 30px auto;
+    overflow: auto;
+    min-width: 300px;
+    border: 2px solid chartreuse;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .tesqui-containeree{
+    max-width: 500px ;
+    
+    overflow: auto;
+    min-width: 300px;
+    border: 2px solid  black;
+    margin-left: 10px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+  body{
+    background-color: white;
+  }
+  p{
+    color: aqua;
+  }
+  
+ 
+ 
+ 
+   *{
+     box-sizing: border-box;
+   }
+   .org{
+     background-color: cadetblue;
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+     padding: 1%;
+   }
+  
+  .cardi{
+    background-color: #444;
+    width: 20%;
+    padding-left: 20%;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  
